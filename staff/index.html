@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff & Pegawai | Sistem Restoran</title>
+
+    <link rel="stylesheet" href="staff.css">
+</head>
+
+<body>
+
+    <!-- Content -->
+    <main class="container">
+
+        <div class="header">
+            <h1>Staff & Pegawai</h1>
+
+            <button class="btn-tambah">
+                Tambah pegawai
+            </button>
+        </div>
+
+
+        <!-- Search -->
+        <div class="search-area">
+
+            <input
+                type="text"
+                placeholder="Cari nama pegawai"
+                class="search-input"
+            >
+
+            <select class="position-select">
+                <option>Semua posisi</option>
+                <option>Bos</option>
+                <option>Manajer</option>
+                <option>Chef</option>
+		<option>Kacung</option>
+            </select>
+
+            <button class="btn-cari">
+                Cari
+            </button>
+
+        </div>
+
+
+        <!-- Table -->
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Posisi</th>
+                        <th>Kontak</th>
+                        <th class="aksi-header">Aksi</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td class="nama">Mino</td>
+                        <td>Bos</td>
+                        <td>+62</td>
+                        <td class="aksi">
+                            <button class="btn-ubah">Ubah</button>
+                            <button class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="nama">Fasya</td>
+                        <td>Manajer</td>
+                        <td>+62</td>                        
+                        <td class="aksi">
+                            <button class="btn-ubah">Ubah</button>
+                            <button class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="nama">Rafa</td>
+                        <td>Chef</td>
+                        <td>+62</td>
+                        <td class="aksi">
+                            <button class="btn-ubah">Ubah</button>
+                            <button class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="nama">Reifan</td>
+                        <td>Kacung</td>
+                        <td>+62</td>                        
+                        <td class="aksi">
+                            <button class="btn-ubah">Ubah</button>
+                            <button class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
